@@ -1,7 +1,6 @@
 # Portifolio
-https://www.youtube.com/watch?v=TsMuT8OjAQs - link do video
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -31,8 +30,8 @@ https://www.youtube.com/watch?v=TsMuT8OjAQs - link do video
         </nav>
         <div class="Main">
             <h4>Olá, meu nome é</h4>
-            <h1>Tahmid <span>Ahmed</span></h1>
-            <h3>Eu sou um desenvolvedor web</h3>
+            <h1>Anderson<span>Araújo</span></h1>
+            <h3>Sou Graduando em Analise e Dev. de Sistemas, com conhecimento em HTML, CSS E C#</h3>
             <div class="conteiner-btn">
                 <form>
                     <input type="emai" nome="email" id="mail" placeholder="Envie o seu Email">
@@ -44,6 +43,88 @@ https://www.youtube.com/watch?v=TsMuT8OjAQs - link do video
         <!--Main-->
     </div>
     <!--Background-->
+    <section class="background-color-sobre">
+        <div class="Main-sobre">
+            <img src="img/main-img.png" alt="sobre">
+            <div class="texto-sobre">
+                <h2>Sobre-Mim</h2>
+                <h5>Desenvolvedor <span>& Designer</span></h5>
+                <p>Eu sou um Desenvolvedor web front-end. Eu posso fornecer codigos limpos e imagem de desing perfeito. E também fazer o website mais & mais interativo e com animação web. E posso Deixar seu site responsivo, e que ele acesse todos os usuarios,
+                    independente dos sues aparelhos dispositivos</p>
+                <button class="button">Vamos conversar</button>
+
+            </div>
+            <!--texto- sobre-->
+        </div>
+        <!--Main-sobre-->
+    </section>
+    <!--parte do sobre mim-->
+
+    <div class="conteiner-serviços">
+        <div class="Title">
+            <h2>Nossos Serviços</h2>
+        </div>
+        <!--titulo-->
+        <div class="caixa">
+            <div class="card">
+                <i class="fa fa-bars"></i>
+                <h5>Desenvolvedor Web</h5>
+                <p>Muitos sites devem ser construidos com dois principais objetivos: Primeiramente, ele precisa funcionar em todos os dispositivos, Segundo, Ele precisa ser o mais rapido possivel.</p>
+                <button class="btn">Ler mais</button>
+            </div>
+            <!--cards1-->
+
+            <div class="card">
+                <i class="fa fa-user"></i>
+                <h5>Desenvolvedor Web</h5>
+                <p>Muitos sites devem ser construidos com dois principais objetivos: Primeiramente, ele precisa funcionar em todos os dispositivos, Segundo, Ele precisa ser o mais rapido possivel.</p>
+                <button class="btn">Ler mais</button>
+            </div>
+            <!--cards2-->
+
+            <div class="card">
+                <i class="fa fa-bell"></i>
+                <h5>Desenvolvedor Web</h5>
+                <p>Muitos sites devem ser construidos com dois principais objetivos: Primeiramente, ele precisa funcionar em todos os dispositivos, Segundo, Ele precisa ser o mais rapido possivel.</p>
+                <button class="btn">Ler mais</button>
+            </div>
+            <!--cards3-->
+
+        </div>
+        <!--caixas do conteiners-->
+
+        <!--Cursos-->
+    </div>
+    <!--parte 3, serviços-->
+    <div class="me-contate">
+        <p>Contate minha equipe para a gente criar um bonito site para você</p>
+        <button class="btn">Enviar mensagem</button>
+    </div>
+    <!--Me contate-->
+    <!-- <div class="cursos">
+
+        <img src="img/C__16H.png" alt="Curso C#">
+
+    </div>
+    -->
+    <footer>
+        <h6>Anderson Araújo</h6>
+        <p>Para mais HTML e CSS, tutorias - por favor clique no link <br>abaixo para se inscrever no meu canal</p>
+        <div class="Redes-sociais">
+            <a href="https://www.facebook.com/anderson.doacordeon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/andersonteclasoficial/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/anderson-ara%C3%BAjo-b00538220/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/sydom1" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/5579988171924" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+        </div>
+        <!--Utima tag rede sociais-->
+
+        <div class="End">
+            <p>CopyRight © By Anderson Araújo</p>
+        </div>
+
+    </footer>
 </body>
 
 </html>
