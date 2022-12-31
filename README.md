@@ -1,4 +1,3 @@
-# Portifolio
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -16,36 +15,39 @@
 
 <body>
     <div class="background">
+
         <nav>
+
             <h2>Portfo<span>lio</span></h2>
             <!--A palavra foi separada para facilitar na estilização-->
-            <ul class="cabeçalho-link">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Contato</a></li>
+            <ul class="cabeçalho-link" id="cabeçalho-link">
+                <li><a href="#cabeçalho-link">Inicio</a></li>
+                <li><a href="#Main-sobre">Sobre mim</a></li>
+                <li><a href="#me-contate">Serviços</a></li>
+                <li><a href="#caixa">Habilidades</a></li>
+                <li><a href="#Redes-sociais">Contato</a></li>
             </ul>
             <a href="#" class="btn">Subscribe</a>
         </nav>
         <div class="Main">
             <h4>Olá, meu nome é</h4>
-            <h1>Anderson<span>Araújo</span></h1>
-            <h3>Sou Graduando em Analise e Dev. de Sistemas, com conhecimento em HTML, CSS E C#</h3>
+            <h1>Anderson <span>Araújo</span></h1>
+            <h3>Eu sou um futuro desenvolvedor Html, CSS e <br>Dotnet</h3>
             <div class="conteiner-btn">
                 <form>
                     <input type="emai" nome="email" id="mail" placeholder="Envie o seu Email">
                     <input type="submit" nome="submit" value="Começar">
                 </form>
             </div>
-            <!--conteiner-btn-->
+            <!--conteiner-btn-parte do email e botão-->
         </div>
         <!--Main-->
     </div>
     <!--Background-->
+
     <section class="background-color-sobre">
-        <div class="Main-sobre">
-            <img src="img/main-img.png" alt="sobre">
+        <div class="Main-sobre" id="Main-sobre">
+            <img class="foto2" src="img/IMG_20221225_003234-removebg-preview.png" alt="sobre">
             <div class="texto-sobre">
                 <h2>Sobre-Mim</h2>
                 <h5>Desenvolvedor <span>& Designer</span></h5>
@@ -65,7 +67,7 @@
             <h2>Nossos Serviços</h2>
         </div>
         <!--titulo-->
-        <div class="caixa">
+        <div class="caixa" id="caixa">
             <div class="card">
                 <i class="fa fa-bars"></i>
                 <h5>Desenvolvedor Web</h5>
@@ -96,7 +98,7 @@
         <!--Cursos-->
     </div>
     <!--parte 3, serviços-->
-    <div class="me-contate">
+    <div class="me-contate" id="me-contate">
         <p>Contate minha equipe para a gente criar um bonito site para você</p>
         <button class="btn">Enviar mensagem</button>
     </div>
@@ -110,7 +112,7 @@
     <footer>
         <h6>Anderson Araújo</h6>
         <p>Para mais HTML e CSS, tutorias - por favor clique no link <br>abaixo para se inscrever no meu canal</p>
-        <div class="Redes-sociais">
+        <div class="Redes-sociais" id="Redes-sociais">
             <a href="https://www.facebook.com/anderson.doacordeon" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/andersonteclasoficial/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/anderson-ara%C3%BAjo-b00538220/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -125,9 +127,8 @@
         </div>
 
     </footer>
-</body>
 
-</html>
+</body>
 
 CSS
 
